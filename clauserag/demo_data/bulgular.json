@@ -1,0 +1,48 @@
+{
+  "findings": [
+    {
+      "category": "Kapsam dışı haller",
+      "severity": "Yüksek",
+      "rationale": "Bina girişindeki su baskını içerideki sigortalı eşyaya zarar verse bile bu hasar teminat dışında kalabilir.",
+      "evidence": [
+        {
+          "page": 1,
+          "quote": "Bina girişinden gelen su baskınları teminat dışındadır."
+        }
+      ]
+    },
+    {
+      "category": "Muafiyet ve limitler",
+      "severity": "Orta",
+      "rationale": "Teminat kapsamındaki her hasarın ilk 15.000 TL’si sigortalının üzerinde kalır.",
+      "evidence": [
+        {
+          "page": 1,
+          "quote": "Her hasarda 15.000 TL muafiyet uygulanır."
+        }
+      ]
+    },
+    {
+      "category": "Bildirim süreleri",
+      "severity": "Yüksek",
+      "rationale": "Sigortalı hasarı öğrendikten sonra 24 saat içinde yazılı bildirim yapmazsa poliçe ödeme yapılmayacağını öngörüyor.",
+      "evidence": [
+        {
+          "page": 2,
+          "quote": "Sigortalı, hasarı öğrendiği andan itibaren 24 saat içinde yazılı bildirim yapmalıdır. Bu süre geçerse hasar ödemesi yapılmaz."
+        }
+      ]
+    },
+    {
+      "category": "Tek taraflı değişiklik veya fesih",
+      "severity": "Yüksek",
+      "rationale": "Sigortacı, dönem devam ederken ve sigortalının onayı olmadan teminat limitlerini düşürebilir.",
+      "evidence": [
+        {
+          "page": 2,
+          "quote": "Sigortacı, sigortalının onayı olmadan poliçe dönemi içinde teminat limitlerini düşürebilir."
+        }
+      ]
+    }
+  ]
+}

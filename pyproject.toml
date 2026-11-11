@@ -1,0 +1,11 @@
+[project]
+name = "clauserag"
+version = "0.1.0"
+description = "Türkçe sigorta poliçeleri ve sözleşmeler için kaynaklı risk analizi"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=2.30,<3",
+    "pydantic>=2.11,<3",
+    "pypdf>=6.0,<7",
+    "streamlit>=1.67,<2",
+]
